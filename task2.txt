@@ -1,0 +1,98 @@
+1. Semantic tags
+Semantic elements = elements with a meaning.
+Clearly defines its content.-A semantic element clearly describes its meaning to both the browser and the developer.
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+2. Iframe
+ Iframe-inline frame 
+
+An inline frame is used to embed another document within the current HTML document.
+It is a good practice to always include a title attribute for the <iframe>.
+
+
+3.Z index
+The z-index property specifies the stack order of an element.
+An element with greater stack order is always in front of an element with a lower stack order.
+
+ 4.hosting
+
+Web hosting is a process and service through which web application or website files are stored in a Web server to publish to the Internet 
+via World Wide Web. These files are primarily hosted to be publicly available around the world at any time. 
+
+ 5.canvas tag
+
+ The <canvas> tag is used to draw graphics, on the fly, via scripting
+ Any text inside the <canvas> element will be displayed in browsers with JavaScript disabled and in browsers that do not support <canvas>.
+
+6.let,var,const difference
+
+   let
+
+Variables defined with let cannot be Redeclared.
+
+Variables defined with let must be Declared before use.
+
+Variables defined with let have Block Scope.
+
+  var
+
+ The var statement declares a variable.
+
+Variables are containers for storing information.
+
+
+  const
+
+Variables defined with const cannot be Redeclared.
+
+Variables defined with const cannot be Reassigned.
+
+Variables defined with const have Block Scope.
+
+
+7.Position
+static
+relative
+fixed
+absolute
+sticky
+
+ position: static;
+
+        An element with position: static; is not positioned in any special way; it is always
+        positioned according to the normal flow of the page:
+
+ position: relative;
+
+         Setting the top, right, bottom, and left properties of a relatively-positioned element
+          will cause it to be adjusted away from its normal position. Other content will not be adjusted to
+          fit into any gap left by the element
+
+ position: fixed;
+         
+          An element with position: fixed; is positioned relative to the viewport, which means it always stays 
+          in the same place even if the page is scrolled
+
+ position: absolute;
+
+          An element with position: absolute; is positioned relative to the nearest positioned ancestor
+
+ position: sticky;
+
+           An element with position: sticky; is positioned based on the user's scroll position.
+
+            A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned
+              relative until a given offset position is met in the viewport - then it "sticks" in place 
